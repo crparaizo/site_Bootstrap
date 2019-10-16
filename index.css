@@ -1,0 +1,28 @@
+body{
+    background-color: #d3d3d3;
+}
+header{
+    /* background não vai se repetir no navegador, aparece só uma vez */
+    /* background vai ser centralizado tanto verticalmente quando horizontalmente */
+    background: url("background.jpg") no-repeat center center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* rem - medida responsível */
+    padding-top: 12rem; 
+    padding-bottom: 12rem;
+}
+section i{
+    font-size: 4.5rem;    
+}
+.imagem{
+    background: url("tecnologia.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 12rem; 
+    padding-bottom: 12rem;
+}
+footer i{
+    font-size: 2rem;
+}
